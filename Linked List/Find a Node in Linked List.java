@@ -72,17 +72,7 @@ public class Solution {
 		 * Return output and don't print it.
 	 	 * Taking input and printing output is handled automatically.
 		*/
-//         int count=0;
-//         while(head.data!=n)
-//         {
-           
-//             if(head.next==null)
-//                 return -1;
-//             count++;
-//             head=head.next;
-//         }
-//         return count;
-        //Recursive Approach
+
         if(head==null || head.data==-1)
             return -1;
         int current=0;
